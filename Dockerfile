@@ -46,21 +46,21 @@ RUN apt update
 ### 6_Advanced/FunctionPointers
 ### 7_CUDALibraries/randomFog
 ###
-RUN apt -y install libgl1-mesa-dev
+RUN apt install -y libgl1-mesa-dev
 
 ###
 ### solve for
 ### >>> WARNING - libGLU.so not found, refer to CUDA Getting Started Guide for how to find and install them. <<<
 ### >>> WARNING - glu.h not found, refer to CUDA Getting Started Guide for how to find and install them. <<<
 ###
-RUN apt -y install libglu1-mesa-dev
+RUN apt install -y libglu1-mesa-dev
 
 ###
 ### solve for
 ### /usr/bin/ld: cannot find -lglut
 ### https://stackoverflow.com/questions/15064159/usr-bin-ld-cannot-find-lglut
 ###
-RUN apt -y install freeglut3-dev
+RUN apt install -y freeglut3-dev
 
 ###
 ### solve for
@@ -75,7 +75,7 @@ RUN apt -y install freeglut3-dev
 ### 5_Simulations/fluidsGLES
 ### 5_Simulations/nbody_screen
 ###
-RUN apt -y install libgles2-mesa-dev
+RUN apt install -y libgles2-mesa-dev
 
 
 ###
