@@ -40,7 +40,7 @@ RUN apt install -y sshfs
 
 ### Newby question to CUDA container and ssh · Issue #36 · NVIDIA/nvidia-docker 
 ### https://github.com/NVIDIA/nvidia-docker/issues/36
-RUN echo "export PATH=$PATH" >> /etc/profile && \
+RUN echo "export PATH=\$PATH" >> /etc/profile && \
     echo "ldconfig" >> /etc/profile
 
 ##############
