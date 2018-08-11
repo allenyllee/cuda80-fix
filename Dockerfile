@@ -2,6 +2,11 @@
 #
 # VERSION               0.0.1
 
+# 
+# 8.0/devel/cudnn7/Dockerfile · ubuntu16.04 · nvidia / cuda · GitLab
+# https://gitlab.com/nvidia/cuda/blob/ubuntu16.04/8.0/devel/cudnn7/Dockerfile
+# 
+
 FROM      nvidia/cuda:8.0-cudnn7-devel-ubuntu16.04
 LABEL     maintainer="allen7575@gmail.com"
 
